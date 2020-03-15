@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\examples",
+    "\\src\\app\\examples\\signup",
+    "\\src\\app\\shared",
+    "\\src\\assets",
+    "\\src\\assets\\sass\\paper-kit",
+    "\\src\\assets\\sass\\paper-kit\\plugins",
+    "\\src\\environments"
   ],
+  "SelectedNode": "\\src\\app\\contact\\contact.component.html",
   "PreviewInSolutionExplorer": false
 }

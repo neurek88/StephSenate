@@ -6,17 +6,21 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LandingComponent } from './landing/landing.component';
 import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
+import { PrioritiesComponent } from './priorities/priorities.component';
+import { PressComponent } from './press/press.component';
 
 @NgModule({
     imports: [
         CommonModule,
         FormsModule,
-        NgbModule,
+        NgbModule
     ],
     declarations: [
         LandingComponent,
         SignupComponent,
-        ProfileComponent
+        ProfileComponent,
+        PrioritiesComponent,
+        PressComponent,
     ]
 })
-export class ExamplesModule { }
+export class MainModule { }

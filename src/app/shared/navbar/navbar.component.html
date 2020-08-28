@@ -2,6 +2,8 @@
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="/#/">Home</a>
+            <a class="navbar-brand" href="/#/about">About</a>
+            <a class="navbar-brand" href="/#/priorities">Priorities</a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -11,19 +13,19 @@
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/StephPleasant" target="_blank">
                         <i class="fa fa-twitter"></i>
                         <p class="d-lg-none">Twitter</p>
                     </a>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/PleasantforNE" target="_blank">
                         <i class="fa fa-facebook-square"></i>
                         <p class="d-lg-none">Facebook</p>
                     </a>
                 </li>
                 <li class="nav-item" *ngIf="!isDocumentation()">
-                    <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/" target="_blank">
+                    <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/pleasant4ne/" target="_blank">
                         <i class="fa fa-instagram"></i>
                         <p class="d-lg-none">Instagram</p>
                     </a>
@@ -32,11 +34,11 @@
                     <a href="/#/contact" class="nav-link"><i class="nc-icon nc-email-85"></i> Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://secure.actblue.com/entity/fundraisers/95434" target="_blank" class="btn btn-danger btn-round">Donate</a>
+                    <a href="https://secure.actblue.com/donate/friends-of-stephany-pleasant-1" target="_blank" class="btn btn-danger btn-round">Donate</a>
                 </li>
                 <!--  <li class="nav-item">
-          <button class="navbar-toggler navbar-burger" type="button"><i _ngcontent-c3 class="nc-icon nc-simple-remove" (click)="sidebarClose()"></i></button>
-      </li> -->
+        <button class="navbar-toggler navbar-burger" type="button"><i _ngcontent-c3 class="nc-icon nc-simple-remove" (click)="sidebarClose()"></i></button>
+    </li> -->
             </ul>
         </div>
     </div>

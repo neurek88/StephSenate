@@ -1,5 +1,5 @@
 .section{
-    padding: 50px 0;
+    padding: 30px 0 15px 0;
     position: relative;
     background-color: #FFFFFF;
 }
@@ -20,12 +20,19 @@
     background-color: #A59E94;
     color: $white-color;
 }
-.section-light-blue{
+.section-light-blue {
+    padding: 30px 0 15px 0;
     background-color: $primary-color;
     color: $white-color;
 }
-.section-dark-blue{
-    background-color: #506367;
+.section-dark-blue {
+    padding: 30px 0 15px 0;
+    background-color: #3C3B6E;
+    color: $white-color;
+}
+.section-red {
+    padding: 30px 0 15px 0;
+    background-color: #CF7580;
     color: $white-color;
 }
 .section-dark{

@@ -38,7 +38,7 @@ $default-color:              #66615B !default;
 $default-bg:                 #66615B !default;
 $default-states-color:       #403D39 !default;
 
-$primary-color:              #51cbce !default;
+$primary-color:              #8584A4 !default;
 $primary-states-color:       darken($primary-color, 10%) !default;
 
 $success-color:              #6bd098 !default;
@@ -50,7 +50,7 @@ $info-states-color:          darken($info-color, 10%) !default;
 $warning-color:              #fbc658 !default;
 $warning-states-color:       darken($warning-color, 10%) !default;
 
-$danger-color:               #f5593d !default;
+$danger-color:               #b22234 !default;
 $danger-states-color:        darken($danger-color, 8%) !default;
 
 $link-disabled-color:        #666666 !default;
@@ -131,7 +131,7 @@ $btn-round-radius:             30px !default;
 $height-base:                  40px !default;
 
 $font-size-base:               14px !default;
-$font-size-small:              12px !default;
+$font-size-small:              13px !default;
 $font-size-medium:             16px !default;
 $font-size-large:              20px !default;
 $font-size-large-navbar:       22px !default;
@@ -139,10 +139,10 @@ $font-size-large-navbar:       22px !default;
 $font-size-h1:                 3.6em !default;
 $font-size-h2:                 2.8em !default;
 $font-size-h3:                 1.825em !default;
-$font-size-h4:                 1.6em !default;
-$font-size-h5:                 1.35em !default;
-$font-size-h6:                 0.9em !default;
-$font-paragraph:               15px !default;
+$font-size-h4:                 1.7em !default;
+$font-size-h5:                 1.4em !default;
+$font-size-h6:                 17px !default;
+$font-paragraph:               17px !default;
 $font-size-navbar:             14px !default;
 
 $font-size-info-horizontal:    2.5em !default;

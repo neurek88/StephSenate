@@ -7,12 +7,12 @@ import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
-
 import { ComponentsModule } from './components/components.module';
-import { ExamplesModule } from './examples/examples.module';
+import { MainModule } from './main/main.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
+import { SanitizeHTMLPipe } from './sanitize-html.pipe';
 
 
 @NgModule({
@@ -20,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    SanitizeHTMLPipe
   ],
   imports: [
     BrowserModule,
@@ -28,7 +29,7 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     RouterModule,
     ComponentsModule,
-    ExamplesModule,
+      MainModule,
     AppRoutingModule,
     HttpClientModule,
   ],

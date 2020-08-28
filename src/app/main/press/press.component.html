@@ -1,0 +1,20 @@
+<script src="html-sanitizer-minified.js"></script>
+<script>function urlX(url) { if(/^https?:\/\//.test(url)) { return url }} function idX(id) { return id } alert(html_sanitize('<b>hello</b><img src="http://asdf"><a href="javascript:alert(0)"><script src="http://dfd"><\/script>', urlX, idX))</script>
+
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/background3.jpg');">
+        <div class="filter"></div>
+    </div>
+    <div class="main">
+        <div *ngFor="let feed of RssData.items">
+            <div class="container">
+                <div class="col-md-6 mr-auto ml-auto">
+                    <h3><u>{{feed.title}}</u></h3>
+                    <p><a href="{{feed.link}}">Article</a> - {{feed.pubDate | date:'MM-dd-yyyy'}}</p>
+                    <div class="bodyText" [innerHTML]="feed.description"></div>
+                    <br>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>

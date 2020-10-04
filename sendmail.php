@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 $rest_json = file_get_contents("php://input");
 $_POST = json_decode($rest_json, true);
-$to = "info@pleasantforne.com";
+$to = " pleasantfriendsNE@gmail.com";
 $subject = "Message From Website";
 
 $name = $_POST['name'];

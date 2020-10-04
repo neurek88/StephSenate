@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { PrioritiesComponent } from './priorities/priorities.component';
 import { PressComponent } from './press/press.component';
+import { EndorsementComponent } from './endorsement/endorsement.component';
 
 @NgModule({
     imports: [
@@ -21,6 +22,7 @@ import { PressComponent } from './press/press.component';
         ProfileComponent,
         PrioritiesComponent,
         PressComponent,
+        EndorsementComponent,
     ]
 })
 export class MainModule { }

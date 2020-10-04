@@ -29,8 +29,9 @@ export class ContactComponent implements OnInit {
             console.log(this.PostData.email);
             console.log("submitting new email");
             let xhr = new XMLHttpRequest();
-            let url = "sendmail.php";
+            let url = "https://www.pleasantforne.com/sendmail.php";
             let verifyStatus = 200;
+            let verifyStatus2 = 0;
 
             // open a connection 
             xhr.open("POST", url, true);
@@ -41,9 +42,9 @@ export class ContactComponent implements OnInit {
             var data = JSON.stringify({ "name": this.PostData.name, "email": this.PostData.email, "message": this.PostData.message });
 
             xhr.send(data);
-            console.log(xhr.status);
-            if (verifyStatus != xhr.status) {
-                this.Message = "An Error Has Occured. Please Email info@stephanyforne.com"
+            console.log("xhr status equals" + xhr.status);
+            if (xhr.status > 200) {
+                this.Message = "An error has occurred. Please email pleasantfriendsNE@gmail.com"
                 this.MessageSent = true;
             } else {
                 this.Message = "Your Message Has Been Sent";

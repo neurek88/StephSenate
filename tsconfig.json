@@ -9,6 +9,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "types": [
+      "node"
+    ],
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -17,5 +20,8 @@
       "dom"
     ],
     "module": "es2015"
-  }
+  },
+  "include": [
+    "src"
+  ]
 }

@@ -6,11 +6,12 @@
     "\\src\\app\\components",
     "\\src\\app\\components\\navigation",
     "\\src\\app\\main",
+    "\\src\\app\\main\\landing",
     "\\src\\app\\main\\press",
     "\\src\\app\\main\\priorities",
     "\\src\\app\\shared",
     "\\src\\app\\shared\\navbar"
   ],
-  "SelectedNode": "\\src\\app\\components\\navigation\\navigation.component.ts",
+  "SelectedNode": "\\src\\app\\main\\landing\\landing.component.html",
   "PreviewInSolutionExplorer": false
 }

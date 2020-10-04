@@ -11,6 +11,8 @@ import { ComponentsComponent } from './components/components.component';
 import { ProfileComponent } from './main/profile/profile.component';
 import { PrioritiesComponent } from './main/priorities/priorities.component';
 import { PressComponent } from './main/press/press.component';
+import { SignupComponent } from './main/signup/signup.component';
+import { EndorsementComponent } from './main/endorsement/endorsement.component';
 
 
 
@@ -24,7 +26,9 @@ const routes: Routes =[
     { path: 'typo',             component: TypographyComponent },
     { path: 'component',        component: ComponentsComponent },
     { path: 'about',            component: ProfileComponent },
-    { path: 'press',            component: PressComponent   },
+    { path: 'press',            component: PressComponent },
+    { path: 'photos',           component: SignupComponent },
+    { path: 'endorsement',      component: EndorsementComponent },
 
 
 

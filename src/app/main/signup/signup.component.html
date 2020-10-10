@@ -1,25 +1,38 @@
 <div class="wrapper">
-    <div class="page-header" style="background-image: url('./assets/img/login-image.jpg');">
+    <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/endorsement/endorse.jpg');">
         <div class="filter"></div>
-            <div class="section" id="carousel">
-                <div class="container">
-                    <div class="tim-title">
-                        <h3>Carousel</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8 mr-auto ml-auto">
-                            <div class="card page-carousel">
-                                <ngb-carousel>
-                                    <div *ngFor="let image of images">
-                                        <ng-template ngbSlide>
-                                            <img src="{{image}}" alt="Random first slide">
-                                        </ng-template>
-                                    </div>
-                                    </ngb-carousel>
+    </div>
+    <div class="section text-center">
+        <div class="container">
+                <h2 class="title">Photos</h2>
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h4 class="title">Volunteers</h4>
+                    <div class="card page-carousel">
+                        <ngb-carousel>
+                            <div *ngFor="let image of images">
+                                <ng-template ngbSlide>
+                                    <img src="{{image}}" alt="Random first slide">
+                                </ng-template>
                             </div>
-                        </div>
+                        </ngb-carousel>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mr-auto ml-auto">
+                    <h4 class="title">Photos of Stephany</h4>
+                    <div class="card page-carousel">
+                        <ngb-carousel>
+                            <div *ngFor="let image of personal">
+                                <ng-template ngbSlide>
+                                    <img src="{{image}}" alt="Random first slide">
+                                </ng-template>
+                            </div>
+                        </ngb-carousel>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

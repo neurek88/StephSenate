@@ -3,15 +3,16 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\components",
-    "\\src\\app\\components\\navigation",
     "\\src\\app\\main",
     "\\src\\app\\main\\landing",
-    "\\src\\app\\main\\press",
     "\\src\\app\\main\\priorities",
     "\\src\\app\\shared",
-    "\\src\\app\\shared\\navbar"
+    "\\src\\app\\shared\\navbar",
+    "\\src\\assets",
+    "\\src\\assets\\sass",
+    "\\src\\assets\\sass\\paper-kit",
+    "\\src\\assets\\sass\\paper-kit\\mixins"
   ],
-  "SelectedNode": "\\src\\app\\main\\landing\\landing.component.html",
+  "SelectedNode": "\\src\\app\\main\\endorsement\\endorsement.component.html",
   "PreviewInSolutionExplorer": false
 }
